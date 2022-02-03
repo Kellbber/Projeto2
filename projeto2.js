@@ -12,9 +12,9 @@ console.log(`[JUIZ]: Como é o primeiro dia, só temos um inscrito junto com voc
 console.log();
 console.log(`[JUIZ]: ${nome} as regras são simples:
 
-1- PEDRA ganha de ESPADA mas perde para MANTO;
-2- TESOURA ganha de MANTO mas perde para ESCUDO;
-3- PAPEL ganha de ESCUDO mas perde para ESPADA.`);
+1- PEDRA ganha de TESOURA mas perde para PAPEL;
+2- TESOURA ganha de PAPEL mas perde para PEDRA;
+3- PAPEL ganha de PEDRA mas perde para TESOURA.`);
 console.log();
 console.log(`[JUIZ]: Regras simples pra quem vem de ${reino} não acha?`);
 console.log();
