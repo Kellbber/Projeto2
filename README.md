@@ -1,3 +1,6 @@
-# Projeto2
-Projeto-2 JOKENPO
-Nele você será capaz de jogar jokenpo com a máquina em um tema medieval!
+# BlueEdTech
+Projeto-01 - Tema: JOKENPO
+##
+Nesse game, você será capaz de participar de um minicampeonato medieval de JOKENPO contra um adversário complicado...
+##
+Melhorias, sugestões e demais assuntos -> kellbberbarcarolo@gmail.com
