@@ -21,7 +21,7 @@ console.log();
 console.log('[JUIZ]: Ah, mais uma coisa... Você joga na mesma hora que Godze para evitar trapaças! Terá também um placar para ir vendo quem está ganhando ou perdendo!');
 console.log();
 
-const computador = ['ESCUDO',['ESPADA'],['MANTO']];
+const computador = ['PEDRA',['TESOURA'],['PAPEL']];
 console.log();
 let resposta = '';
 while(resposta!='N'){
@@ -55,11 +55,11 @@ console.log();
     nAleatorio = [Math.floor((Math.random() * computador.length))]
     rAleatorio = computador[nAleatorio];
     console.log();
-    while(Uescolha!='ESCUDO'|| Uescolha!='ESPADA'|| Uescolha!='MANTO'){
+    while(Uescolha!='PEDRA'|| Uescolha!='TESOURA'|| Uescolha!='PAPEL'){
     console.log();
     console.log();
-    Uescolha = prompt(`${nome}, escolha entre: ESCUDO, ESPADA ou MANTO: `).toUpperCase().trim();
-    if(Uescolha=='ESCUDO'||Uescolha=='ESPADA'||Uescolha=='MANTO')
+    Uescolha = prompt(`${nome}, escolha entre: PEDRA, TESOURA ou PAPEL: `).toUpperCase().trim();
+    if(Uescolha=='PEDRA'||Uescolha=='TESOURA'||Uescolha=='PAPEL')
     break;
     }
     console.log();
@@ -70,7 +70,7 @@ console.log();
         empate++;
         
     }
-    else if ((rAleatorio=='ESCUDO' && Uescolha =='MANTO') || rAleatorio=='ESPADA' && Uescolha=='ESCUDO' || rAleatorio=='MANTO' && Uescolha=='ESPADA'){
+    else if ((rAleatorio=='PEDRA' && Uescolha =='PAPEL') || rAleatorio=='TESOURA' && Uescolha=='PEDRA' || rAleatorio=='PAPEL' && Uescolha=='TESOURA'){
         console.log();
        console.log(`[JUIZ] ${nome}, você escolheu ${Uescolha} e o Godze ${rAleatorio} e você ganhou essa rodada!`);
        console.log();
