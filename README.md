@@ -1,5 +1,5 @@
 # BlueEdTech
-Projeto-01 - Tema: JOKENPO
+Projeto-02 - Tema: JOKENPO
 ##
 Nesse game, você será capaz de participar de um minicampeonato medieval de JOKENPO contra um adversário complicado...
 ##
